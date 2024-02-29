@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.textOne{
+    position: absolute;
+    margin-left: 150px;
+    top: 300px;
+    right: 50%;
+
+}
+
+#headerOne{
+    color: white;
+}
+
+#perOne{
+    color: white;
+}
+
+
+#soldiersCon{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    width: 20px;
+    height: 0px;
+    /* gap: 1px; */
+    margin-left: 30vh;
+}
+
+.card{
+    justify-content: center;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    background-image: url("/images/Yom_Hashoah_candle.jpg");
+    background-size: 100%;
+    margin: 10px;
+    padding: 30px;
+    opacity: 0.8;
+}
+
+
+#search{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.story{
+    position: absolute;
+    grid-template-columns: repeat(3,3fr);
+}
+
+#storyCard{
+    display: block;
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+
+}
